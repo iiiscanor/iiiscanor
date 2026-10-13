@@ -1,73 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#161b22"/>
-    </linearGradient>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" y="0" fill="#000000" opacity="0.18"/>
-    </pattern>
-    <g id="sprite">
-      <rect x="8" y="0" width="16" height="4" fill="#5ac54f"/>
-      <rect x="4" y="4" width="24" height="4" fill="#5ac54f"/>
-      <rect x="0" y="8" width="32" height="8" fill="#5ac54f"/>
-      <rect x="4" y="16" width="24" height="4" fill="#5ac54f"/>
-      <rect x="8" y="20" width="16" height="4" fill="#5ac54f"/>
-      <rect x="8" y="8" width="4" height="4" fill="#0d1117"/>
-      <rect x="20" y="8" width="4" height="4" fill="#0d1117"/>
-      <rect x="12" y="16" width="8" height="2" fill="#0d1117"/>
-    </g>
-  </defs>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/poormikey80-create/poormikey80-create/main/assets/header.svg" alt="Mikayla P. — Solo Game Dev" width="880"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/poormikey80-create/poormikey80-create/main/assets/now.svg" alt="now" width="720"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Godot-4.x-478CBF?style=flat&logo=godotengine&logoColor=white" height="22"/>
+  <img src="https://img.shields.io/badge/GDScript-2.0-355570?style=flat" height="22"/>
+  <img src="https://img.shields.io/badge/Aseprite-pixel%20art-7D929E?style=flat" height="22"/>
+  <img src="https://img.shields.io/badge/Python-3-3776AB?style=flat&logo=python&logoColor=white" height="22"/>
+  <img src="https://img.shields.io/badge/Audacity-000000?style=flat&logo=audacity&logoColor=white" height="22"/>
+</p>
 
-  <rect width="880" height="200" fill="url(#bg)"/>
+---
 
-  <g stroke="#21262d" stroke-width="1">
-    <line x1="0" y1="36" x2="880" y2="36"/>
-    <line x1="0" y1="168" x2="880" y2="168"/>
-    <line x1="56" y1="0" x2="56" y2="200"/>
-  </g>
+Solo game dev in Austin, TX. I build small 2D games in Godot 4 and draw the art
+myself in Aseprite, usually at 16x16, because that is the biggest canvas I can
+actually finish in one sitting.
 
-  <text x="18" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#484f58" letter-spacing="1">main</text>
-  <text x="862" y="188" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#484f58" letter-spacing="1">v1.4.2</text>
+Time-poor, idea-rich. The ideas folder is currently winning 41 to 3.
 
-  <text x="92" y="98" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="600" fill="#e6edf3" letter-spacing="1.5">Mikayla P.</text>
-  <text x="94" y="126" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#5ac54f" letter-spacing="4">Solo Game Developer</text>
-  <text x="94" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e" letter-spacing="0.5">Godot 4 · GDScript · Pixel Art · Aseprite · Python 3</text>
+Most of what I put here is jam leftovers that turned out to be useful on their
+own: a movement controller I keep re-typing, a palette I keep re-importing, a
+build script I keep re-writing at 1am. Now they have a home.
 
-  <g transform="translate(636,52)">
-    <rect x="0" y="0" width="180" height="104" rx="8" fill="#0d1117" stroke="#30363d"/>
-    <rect x="10" y="10" width="160" height="70" fill="#11161d" stroke="#21262d"/>
-    <rect x="10" y="10" width="160" height="70" fill="url(#scan)"/>
+## Tools I actually use
 
-    <ellipse cx="90" cy="72" rx="16" ry="3" fill="#000000" opacity="0.35">
-      <animate attributeName="rx" values="16;8;16" dur="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;0.12;0.35" dur="1.2s" repeatCount="indefinite"/>
-    </ellipse>
+- **Godot 4.x** — every project ships from here. GL Compatibility renderer, so
+  builds run on the ten-year-old laptop under my desk.
+- **GDScript** — statically typed where it helps, `class_name` on anything I
+  reuse more than twice.
+- **Aseprite** — sprites, tilesets, palettes. 16-colour ramps by default.
+- **Python 3** — the glue: sheet packing, palette linting, zipping builds for
+  itch uploads.
+- **Tiled** — only when a level outgrows hand-placed tiles in the editor.
+- **Git and GitHub** — one branch, small commits, no ceremony.
+- **Audacity** — placeholder sound effects made with my own mouth. Sorry.
 
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -18; 0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.35 0 0.65 1;0.35 0 0.65 1" dur="1.2s" repeatCount="indefinite"/>
-      <use href="#sprite" x="74" y="36"/>
-    </g>
+## Selected projects
 
-    <g>
-      <rect x="14" y="86" width="14" height="10" fill="#5ac54f">
-        <animate attributeName="opacity" values="1;0.25;0.25;1" dur="3.6s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="34" y="86" width="14" height="10" fill="#58a6a6">
-        <animate attributeName="opacity" values="0.25;1;0.25;0.25" dur="3.6s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="54" y="86" width="14" height="10" fill="#8b949e">
-        <animate attributeName="opacity" values="0.25;0.25;1;0.25" dur="3.6s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+**[jam-bunny](https://github.com/poormikey80-create/jam-bunny)**
+A minimal Godot 4 hop-and-collect scene: variable-height jump, floaty hang
+time, squash-and-stretch on takeoff. The skeleton I start every jam from.
 
-    <circle cx="160" cy="91" r="5" fill="#58a6a6" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="144" cy="91" r="5" fill="none" stroke="#30363d"/>
-  </g>
+**[pixel-pals](https://github.com/poormikey80-create/pixel-pals)**
+My 16-colour Aseprite palette plus a Python packer that turns a folder of
+frames into a sprite sheet and atlas, and yells at any pixel that drifted
+off-palette.
 
-  <text x="850" y="160" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#5ac54f">▌
-    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
-  </text>
-</svg>
+**[gdscript-utils](https://github.com/poormikey80-create/gdscript-utils)**
+Three dependency-free GDScript helpers I copy into every project: a tiny state
+machine, a cooldown timer, and the math functions Godot does not ship with.
+
+**[godot-shaders](https://github.com/poormikey80-create/godot-shaders)**
+Three 2D shaders I re-typed across too many jams before I accepted they
+deserved a repo: an outline shader for selection and glow, a palette-swap
+shader for character variants without duplicate sprites, and a dissolve
+shader for death animations that does not need an external noise texture.
+
+**[sfx-kitchen](https://github.com/poormikey80-create/sfx-kitchen)**
+A zero-dependency Python script that generates game SFX from basic waveforms
+with ADSR envelopes and frequency sweeps. Exists because my mouth is not a
+synthesizer, no matter how much Audacity insists it could be.
+
+## Currently
+
+Prototyping a one-room dungeon crawler where the room rotates instead of the
+player. It is either a good idea or a motion sickness lawsuit. Progress is
+slow and mostly happens on weekends.
+
+Also slowly porting my old jam entries off a dying external drive, so a few
+repos here will look suspiciously like 2019 code. They are.
+
+## 📊 Activity
+
+<p align="center">
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/stats?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
+  <img height="160" src="https://gh-profile-stats.zli39uclan.workers.dev/top-langs?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
+</p>
+<p align="center">
+  <img width="720" src="https://gh-profile-stats.zli39uclan.workers.dev/activity?username=poormikey80-create&accent=5ac54f&cell=circle&hide_border=true"/>
+</p>
+
+## Contact
+
+GitHub only. Open an issue on the relevant repo and I will get to it, usually
+within a few days. Pull requests are welcome on anything tagged
+`good first issue`, and honestly on anything else too, as long as it keeps the
+zero-dependency rule.
+
+I do not do email, Discord, or Twitter for project stuff. Nothing personal, I
+just lose track of every inbox that is not this one.
+
+## A note on licences
+
+Everything I publish is MIT unless the repo says otherwise. Use the code in
+your commercial game, no credit needed. The art is a different story: palettes
+are free to use, but finished sprites are CC BY-NC unless we talk first.
+
+---
+
+<sub>Austin, TX. Mostly building things after the day job.</sub>
+
+---
+
+## 🕹️ 情报来源
+
+引擎更新、AI 工具、发行渠道的风吹草动,我都在一个中文快讯频道里蹲:
+**[t.me/Lx_groups](https://t.me/Lx_groups)**(没装 TG 先看网页版:[t.me/s/Lx_groups](https://t.me/s/Lx_groups))
+深度长文:[blog.lynxflow.co](https://blog.lynxflow.co) · 频道介绍:[blog.lxlynx.com/tg-channel-landing/](https://blog.lxlynx.com/tg-channel-landing/)
