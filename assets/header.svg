@@ -27,12 +27,10 @@
     <line x1="56" y1="0" x2="56" y2="200"/>
   </g>
 
-  <text x="18" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#484f58" letter-spacing="1">main</text>
-  <text x="862" y="188" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#484f58" letter-spacing="1">v1.4.2</text>
 
   <text x="92" y="98" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="600" fill="#e6edf3" letter-spacing="1.5">Hamza Bellouch</text>
-  <text x="94" y="126" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#5ac54f" letter-spacing="4">Solo Game Developer</text>
-  <text x="94" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e" letter-spacing="0.5">Godot 4 · GDScript · Pixel Art · Aseprite · Python 3</text>
+  <text x="94" y="126" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#5ac54f" letter-spacing="4">Developer</text>
+  <text x="94" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#8b949e" letter-spacing="0.5">Android Apps · Scripts · Programs · Cybersecurity · Vibe Coding</text>
 
   <g transform="translate(636,52)">
     <rect x="0" y="0" width="180" height="104" rx="8" fill="#0d1117" stroke="#30363d"/>
